@@ -2,9 +2,7 @@ import { Globe, MessageCircle } from 'lucide-react';
 import { motion } from 'motion/react';
 
 export default function App() {
-  const videoUrl = "https://raw.githubusercontent.com/Patrikmagalhaes/images_server/main/conselhos_do_alem_images/7519874-uhd_4096_2160_25fps%20(1).mp4";
-  const logoUrl = "https://raw.githubusercontent.com/Patrikmagalhaes/images_server/35da1a008c9c9b58a08a2e8f57bb5ba6f86b65c8/conselhos_do_alem_images/images%20(2)%20(1)%20(1).png";
-
+  
   return (
     <div className="relative min-h-screen w-full overflow-hidden bg-black text-white font-inter selection:bg-orange-500/30">
       {/* Background Video */}
@@ -15,7 +13,7 @@ export default function App() {
         playsInline
         className="absolute inset-0 h-full w-full object-cover opacity-60"
       >
-        <source src={videoUrl} type="video/mp4" />
+        <source src="/public/fogo.mp4" type="video/mp4" />
       </video>
 
       {/* Overlay Gradient */}
@@ -34,7 +32,7 @@ export default function App() {
           <div className="relative">
             <div className="absolute inset-0 bg-green-500/20 blur-2xl rounded-full" />
             <img 
-              src={logoUrl} 
+              src="/public/logo.png"
               alt="Logo" 
               className="relative h-24 w-auto green-glow"
               referrerPolicy="no-referrer"
