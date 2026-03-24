@@ -13,7 +13,7 @@ export default function App() {
         playsInline
         className="absolute inset-0 h-full w-full object-cover opacity-60"
       >
-        <source src="/public/fogo.mp4" type="video/mp4" />
+        <source src="/fogo.mp4" type="video/mp4" />
       </video>
 
       {/* Overlay Gradient */}
@@ -32,7 +32,7 @@ export default function App() {
           <div className="relative">
             <div className="absolute inset-0 bg-green-500/20 blur-2xl rounded-full" />
             <img 
-              src="/public/logo.png"
+              src="/logo.png"
               alt="Logo" 
               className="relative h-24 w-auto green-glow"
               referrerPolicy="no-referrer"
