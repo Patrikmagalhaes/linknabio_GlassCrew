@@ -60,14 +60,6 @@ export default function App() {
             No site você encontra tudo pra sua sessão. Atacado e Varejo 🌿
           </motion.p>
 
-          <motion.p 
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.6, duration: 0.6 }}
-            className="text-sm md:text-base text-gray-400 font-normal"
-          >
-            E se você tem uma marca e quer produzir com a gente, fale direto no WhatsApp 👇
-          </motion.p>
         </div>
 
         {/* Action Buttons */}
