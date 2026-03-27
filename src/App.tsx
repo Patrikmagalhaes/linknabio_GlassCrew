@@ -102,12 +102,12 @@ export default function App() {
           <p className="text-[10px] uppercase tracking-widest text-gray-600 font-inter">
             created by{' '}
             <a 
-              href="https://instagram.com/patrik_magalhaess" 
+              href="https://www.instagram.com/patrik.zip" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:text-gray-400 transition-colors underline underline-offset-2"
             >
-              @patrik_magalhaess
+              @patrik.zip
             </a>
           </p>
         </footer>
